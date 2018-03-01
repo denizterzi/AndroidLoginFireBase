@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196f3">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:text="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="?android:listSeparatorTextViewStyle"/>
+    <EditText
+        android:id="@+id/child_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_text_name"
+        />
+    <TextView
+        android:text="@string/range_to_follow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="?android:listSeparatorTextViewStyle"/>
+    <RadioGroup
+        android:id="@+id/hours_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/third_minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/thirty_minute"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"/>
+
+        <RadioButton
+            android:id="@+id/one_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/one_hours"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/hours_radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/two_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/two_hours"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"/>
+
+        <RadioButton
+            android:id="@+id/eight_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/eight_hours"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/kidsAddButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#283593"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="right"
+        android:text="@string/register"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"/>
+
+</LinearLayout>

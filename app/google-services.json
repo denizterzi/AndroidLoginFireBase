@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "622266831505",
+    "firebase_url": "https://bitirmeprojesi-a7770.firebaseio.com",
+    "project_id": "bitirmeprojesi-a7770",
+    "storage_bucket": "bitirmeprojesi-a7770.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622266831505:android:6c0ea62b77fc37cc",
+        "android_client_info": {
+          "package_name": "com.app.diceroid.nerede"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622266831505-v3ish6a3ao6tthmakg2m83re6nhgbrv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGfBeT3o9vMJyW0AJ817X80NObN1xiAoU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

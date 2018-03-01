@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidLoginFireBase-master.iml" filepath="$PROJECT_DIR$/AndroidLoginFireBase-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Alber\Desktop\projem\nerede.iml" filepath="C:\Users\Alber\Desktop\projem\nerede.iml" />
+      <module fileurl="file://C:\Users\user\Desktop\AndroidLoginFireBase-master\projem.iml" filepath="C:\Users\user\Desktop\AndroidLoginFireBase-master\projem.iml" />
+    </modules>
+  </component>
+</project>

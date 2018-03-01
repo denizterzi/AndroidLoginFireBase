@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">nerede</string>
+<string name="kids_add_text">Çocuk Ekle</string>
+<string name="log_out">Çıkış</string>
+<string name="name">İsim</string>
+<string name="hint_text_name">Çocuğunuzun Adını Girin</string>
+<string name="range_to_follow">Hangi aralıkta takip etmek istiyorsunuz?</string>
+<string name="one_hours">1 Saat</string>
+<string name="thirty_minute">30 Dakika</string>
+<string name="two_hours">2 Saat</string>
+<string name="eight_hours">8 Dakika</string>
+    <string name="star">****</string>
+    <string name="e_mail">E-mail</string>
+    <string name="verification_password">Lütfen Sifrenizini Tekrar Girin</string>
+    <string name="verify_psw">Şifre Doğrulama</string>
+</resources>
