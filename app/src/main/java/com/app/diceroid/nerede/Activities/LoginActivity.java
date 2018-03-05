@@ -27,7 +27,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private FirebaseAuth firebaseAuth;
     private Button deneme;
 
-
+//deneme butonu hizlica maps islemlerini denemek olusturdum proje butunuyle ilgili degildir.
+//Firebase ile ilgili hicbir yer degismedi.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
