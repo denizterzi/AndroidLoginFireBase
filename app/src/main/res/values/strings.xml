@@ -21,4 +21,6 @@
     <string name="password_text">Şifre</string>
     <string name="enter_mail_address">Lütfen e-mail adresinizi girin</string>
     <string name="title_activity_location">Map</string>
+    <string name="gps_info">Konum servislerine bağlanılıyor</string>
+    <string name="gps_notification_disable">Uygulamayı kullanmaya devam edebilmek için lütfen konum servislerini açın</string>
 </resources>
