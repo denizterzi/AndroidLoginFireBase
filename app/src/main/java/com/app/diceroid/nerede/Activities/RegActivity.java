@@ -37,7 +37,7 @@ public class RegActivity extends AppCompatActivity implements View.OnClickListen
         firebaseAuth = FirebaseAuth.getInstance();
         progressDialog = new ProgressDialog(this);
         buttonRegister = (Button) findViewById(R.id.register_button);
-        editTextEmail = (EditText) findViewById(R.id.email_address);
+        editTextEmail = (EditText) findViewById(R.id.mail_edit_text);
         editTextPassword = (EditText) findViewById(R.id.password_edit_text);
         editTextPasswordR = (EditText) findViewById(R.id.verify_password_edit_text);
 
